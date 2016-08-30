@@ -555,6 +555,10 @@ h1, h2, h3, h4, h5, p, a {
     .example {
         width: 100%;
         padding-bottom: 15px;
+    }
+    #logo {
+        margin: 25px 0;
+    }
 }
 @media only screen and (max-width: 550px) {
     .name-role {
