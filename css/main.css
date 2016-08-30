@@ -548,16 +548,12 @@ h1, h2, h3, h4, h5, p, a {
 
 @media only screen and (max-width: 700px) {
     .showcase {
-        display: block;
+        display: block; /* collapse columns */
         text-align: center;
     }
     .example {
         width: 100%;
         padding-bottom: 15px;
-    }
-    .example img {
-        padding: inherit;
-    }
 }
 @media only screen and (max-width: 550px) {
     .name-role {
